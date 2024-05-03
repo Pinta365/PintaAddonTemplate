@@ -12,7 +12,7 @@ A well-structured starting point for creating World of Warcraft addons.
 ### Installation
 
 1.  **Download:**  Download the latest version of the addon. You can either:
-    *   Download the zip file from the repository.
+    *   Download the [zip file](https://github.com/Pinta365/PintaAddonTemplate/releases) from the repository.
     *   Clone the repository.
 2.  **Rename:** Rename the content:
     *   Rename the `PintaAddonTemplate` folder to the desired name of your addon. 
