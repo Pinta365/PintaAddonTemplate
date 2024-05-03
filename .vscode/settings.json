@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "UIDropDownMenu_CreateInfo",
+        "UIDropDownMenu_SetText",
+        "UIDropDownMenu_SetWidth",
+        "UIDropDownMenu_AddButton",
+        "UIDropDownMenu_Initialize",
+        "InterfaceOptionsFramePanelContainer",
+        "InterfaceOptions_AddCategory",
+        "SlashCmdList",
+        "ReloadUI",
+        "InterfaceOptionsFrame_OpenToCategory"
+    ]
+}
