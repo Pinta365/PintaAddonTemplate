@@ -22,3 +22,24 @@ A well-structured starting point for creating World of Warcraft addons.
     ```
     World of Warcraft\_retail_\Interface\AddOns\
     ```
+
+### Folder and files.
+```
+│   README.md                        -- This file
+│
+├───.vscode
+│       settings.json                -- vscode settings to add wow specific globals
+│
+└───PintaAddonTemplate               -- This is the root of the actual addon
+    │   PintaAddonTemplate.lua       -- Main entry point for the addon
+    │   PintaAddonTemplate.toc       -- The TOC-file must be the same name as the folder name.
+    │
+    ├───src
+    │       Config.lua               -- Shared config variables used througout the addon
+    │       OptionsPanel.lua         -- Code to showcase a simple options panel
+    │       SlashCommand.lua         -- Create the addons slash command
+    │       Utilities.lua            -- Various shared utility functions
+    │
+    └───Textures
+            pinta.tga                -- Icon to show in the addon listing
+```
