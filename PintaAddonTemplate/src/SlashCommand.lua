@@ -25,7 +25,7 @@ SlashCmdList["PintaAddonTemplate_CMD"] = function(args)
         print("  " .. WrapTextInColorCode("/pt reset", PT.colors["YELLOW"]) .. " - Reset to default settings and reloadUI")
         print(WrapTextInColorCode("-------------------------------------------------", PT.colors["YELLOW"]))
     elseif lowercaseArgs == "options" then
-        InterfaceOptionsFrame_OpenToCategory("PintaAddonTemplate")
+        Settings.OpenToCategory(PT.settingsCategory.ID)
     elseif lowercaseArgs == "version" then
         print(addonName .. " v" .. PT.addon.version)
     elseif lowercaseArgs == "reset" then

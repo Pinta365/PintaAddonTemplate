@@ -110,5 +110,7 @@ PT.InitOptions = function()
     createOptionDropdown(optionsPanel, "Test text", "TestDropDown", 0, -96, 100)
 
     --Add panel to interface
-    InterfaceOptions_AddCategory(optionsPanel)
+    local category, layout = Settings.RegisterCanvasLayoutCategory(optionsPanel, optionsPanel.name);
+    Settings.RegisterAddOnCategory(category);
+    PT.settingsCategory = category
 end

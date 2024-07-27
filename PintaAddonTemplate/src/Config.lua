@@ -10,6 +10,9 @@ PT.addon = {
     version = C_AddOns.GetAddOnMetadata("PintaAddonTemplate", "Version")
 }
 
+--Placeholder for settings category
+PT.settingsCategory = nil
+
 --Default configuration
 PT.addonDefaults = {
     debug = false

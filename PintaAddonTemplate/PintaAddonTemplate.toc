@@ -1,14 +1,14 @@
-## Interface: 100206
+## Interface: 110000
 ## Name: PintaAddonTemplate
 ## Title: |cff45D388PintaAddonTemplate|r
 ## Notes: A starting point for creating addons for World of Warcraft.
 ## Author: Pinta365@Github
-## Version: 0.0.1
+## Version: 1.0.0
 ## SavedVariables: PintaAddonTemplateDB 
 ## IconTexture: Interface\AddOns\PintaAddonTemplate\Textures\pinta
 
 src\Config.lua
 src\Utilities.lua
-src\SlashCommand.lua
 src\OptionsPanel.lua
+src\SlashCommand.lua
 PintaAddonTemplate.lua
